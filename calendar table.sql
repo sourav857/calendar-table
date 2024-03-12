@@ -1,4 +1,4 @@
---Make a calendar starting from '2000-01-01' till '2030-12-31'
+--Calendar table starting from '2000-01-01' till '2030-12-31'
 with cte as (
    select cast('2000-01-01' as date) as cal_date,
   datepart(year,'2000-01-01') as cal_year,
